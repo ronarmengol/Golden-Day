@@ -10590,3 +10590,15 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 }
 
+.icon1 {
+  width: 150px;
+  height: 120px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.icon1:hover {
+  width: 400px;
+  height: 350px;
+  transform: rotate(720deg);
+}
+
