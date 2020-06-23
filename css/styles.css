@@ -10602,3 +10602,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   transform: rotate(720deg);
 }
 
+.color img {
+  filter: saturate(30%);
+  transition: 5s ease;
+}
+
+.color img:hover {
+  filter: saturate(150%);
+  transition: 1s ease;
+}
