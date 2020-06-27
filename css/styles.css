@@ -10142,11 +10142,13 @@ header.masthead {
   padding-bottom: 8rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/com3-bg.jpg");
+  /* background-image: url("../assets/img/com3-bg.jpg"); */
+  background-image: url(https://media.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy.gif);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 100vh;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -10612,4 +10614,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 .color img:hover {
   filter: saturate(150%);
   transition: 1s ease;
+}
+
+iframe {
+  margin-bottom: 200px;
+  
+}
+
+.map {
+  border: 1px solid black;
 }
