@@ -10143,7 +10143,9 @@ header.masthead {
   text-align: center;
   color: #fff;
   /* background-image: url("../assets/img/com3-bg.jpg"); */
-  background-image: url(https://media.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy.gif);
+   /* background-image: url(https://media.giphy.com/media/U4FkC2VqpeNRHjTDQ5/giphy.gif);  */
+  background-image: url(https://solarsystem.nasa.gov/system/news_items/main_images/12970_2970_2966_CSM_Traj_wFR_RevC.gif);
+
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
