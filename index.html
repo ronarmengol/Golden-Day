@@ -85,6 +85,7 @@
             .offer1 p {
                 max-width: 700px;
                 font-size: 1.2rem;
+                margin: 0 0 0 1rem;
             }
 
             .offer2 {
@@ -96,13 +97,21 @@
 
             .offer2 p {
                 max-width: 700px;
+                width: 100%;
                 font-size: 1.2rem;
+                margin: 0 1rem 0 0;
             }
 
             .offer2 img {
                 width: 100%;
                 max-width: 400px;
+                height: auto;
             }
+
+            .offer3 img {
+                width: 30%;
+            }
+           
             
             @media screen and (max-width: 900px) {
                 .offer1 {
@@ -111,13 +120,34 @@
                 }
 
                 .offer1 img {
+                    margin: 0 0 1rem 0;
                 }
+                .offer1 p {
+                    text-align: left;
+                    margin: 0;
+                }
+
                 .offer2 {
                     flex-direction: column;
                     text-align: center;
                 }
+
+                .offer2 p {
+                    text-align: left;
+                    margin: 0 0 1rem 0;
+                    order: 2;
+                }
                 
                 .offer2 img {
+                    order: 1;
+                }
+
+                .offer2 .offer2A {
+                order: 2;
+                }
+
+                .offer2 .offer2B {
+                   order: 1;
                 }
             }
             @media screen and (max-width: 600px) {
@@ -169,18 +199,20 @@
 
 
                 <section class="offer2">
-                    <div>
+                    <div class="offer2A">
+
                         <p>
                             Golden day general dealer’s suppliers and contractors limited offers the utmost quality designs to meet international standards. Our Designs include brochures, Posters, full stationary layout, Banner designs and much more. We take time to examine your product and company Environment then we derive Artworks pertaining to our Examination results. With our expertise we can give a face to your company, by Branding your stationary, Cars, Trucks, Packaging, Company uniforms, merchandising e.g. Digitally Printed Golf & roundneck T-shirts, Diaries, Pens, Mouse pads, Calendars, etc, giving your the look it desires,the professionalism, expertise, giving you the edge and client confidence over your competitor.
                         </p>
                     </div>
+                    
+                    <div class="offer2B">
 
-                    <div>
                         <img loading="lazy" 
                         src="./images/branding.jpg" 
                         alt="web branding">
                     </div>
-
+                        
                 </section>
 
 
