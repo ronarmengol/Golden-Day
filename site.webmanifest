@@ -2,8 +2,8 @@
   "short_name": "GoldenDay",
   "name": "GoldenDay",
   "icons": [{
-    "src": "/images/zambia-flag.png",
-    "type": "image/png",
+    "src": "/images/zambia-flag.jpeg",
+    "type": "image/jpeg",
     "sizes": "512x512"
   }],
   "start_url": "/",
