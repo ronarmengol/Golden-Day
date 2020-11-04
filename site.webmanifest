@@ -2,7 +2,7 @@
   "short_name": "GoldenDay",
   "name": "GoldenDay",
   "icons": [{
-    "src": "/assets/img/zambiaflag.png",
+    "src": "/images/zambia-flag.png",
     "type": "image/png",
     "sizes": "512x512"
   }],
