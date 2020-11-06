@@ -34,6 +34,10 @@
                 box-sizing: border-box;
             }
 
+            html {
+                scroll-behavior: smooth;
+            }
+
             body {
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 
@@ -348,8 +352,8 @@
                 loading="lazy"
                 src="./images/golden-day-logo.jpg" alt="golden day logo brand">
                 <div class="navItem"><a href="#">Home</a></div>
-                <div class="navItem"><a href="#">About</a></div>
-                <div class="navItem"><a href="#">Contact</a></div>
+                <div class="navItem"><a href="#about">About</a></div>
+                <div class="navItem"><a href="#contact">Contact</a></div>
             </nav>
 
             <h1><span class="keywords">Web designer, web developer </span> GOLDEN DAY GENERAL DEALERS SUPPLIERS AND CONTRACTORS LTD <span class="keywords">Zambia Copperbelt Kitwe</span></h1>
@@ -632,7 +636,10 @@
                         </ul>
                     </aside>
                 </section>
-                Photo by PhotoMIX Company from Pexels
+                <p class="safetyCaption">
+                    Photo by PhotoMIX Company from Pexels
+
+                </p>
                 
                 
                 <section class="objectives">
@@ -660,9 +667,9 @@
             </article>
                 
                 <section class="about">
+                    <h2 id="about">ABOUT US</h2>
                     <img loading="lazy"
                     src="./images/web-team.svg" alt="about web design team" title="web design team">
-                    <h2>ABOUT US</h2>
                     
                     <p>
                         Golden Day General Dealers, Contractors and Suppliers Limited is a wholly owned Zambian Company incorporated in the Republic of Zambia under section 26 of the companies’ act of 1994 of the laws of Zambia. The Company’s core business is in the supply of mining equipment, Repairs Web & Mobile Apps, E-learning Digital Advertising, Custom Business Solutions and contracting of service.
@@ -681,8 +688,8 @@
                 </section>
 
 
-                <footer>
-                    <div>
+                <footer id="contact">
+                    <div class="foot">
                         <p>DIRECTORS</p>
                         <p>YONA SIMUCHIMBA</p>
                         <p>CATHERINE CHIKABUKA</p>
@@ -691,6 +698,7 @@
                         <p>Email.goldendayzambia@outlook.com</p>
                         <p>Website: http://golden-day.netlify.app</p>
                     </div>
+                    <p class="footerCaption">Photo by Kawser Hamid from Pexels</p>
                 </footer>
             </main>
         </body>

@@ -120,7 +120,7 @@
 }
 
 .safety {
-    background-color: #76ff03;
+    background-color: #63FF6E;
     padding: 2rem;
     margin: 5rem 0 0 0;
     display: flex;
@@ -140,6 +140,78 @@
     max-width: 300px;
 }
 
+.safetyCaption {
+    font-size: 0.7rem;
+}
+
+.objectives {
+    margin: 5rem 0 0 0;
+    background-color: #F0FFF1;
+    padding: 4rem 0;
+}
+
+.objectives h2 {
+    text-align: center;
+    margin: 0 0 3rem 0;
+    font-size: 3rem;
+}
+
+.objectives ul {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem 0 2rem;
+}
+
+.objectives li {
+    margin: 0 0 0.8rem 0;
+}
+
+.about {
+    margin: 0 0 0 0;
+    background-color: #F0FFF1;
+    padding: 1rem 0 3rem;
+}
+
+.about h2{
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+}
+
+.about img {
+    margin: 1rem 0 0 0;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+footer {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/construction.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-color: #cfd8dc ;
+    padding: 3rem 0;
+    position: relative;
+    height: 80vh;
+    color: #fafafa;
+}
+
+footer .foot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footerCaption {
+    color: #b0bec5;
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 0;
+}
 
 @media screen and (max-width: 900px) {
    
@@ -161,7 +233,13 @@
        font-size: 2rem;
    }
 
+   .objectives h2 {
+       font-size: 2rem;
+   }
 
+   .about h2 {
+       font-size: 2rem;
+   }
 }
 
 .cool1 {
