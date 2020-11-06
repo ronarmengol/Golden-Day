@@ -23,6 +23,7 @@
         
         <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
         
+        <link rel="stylesheet" href="styles.css">
 
         <style>
 
@@ -277,6 +278,49 @@
                padding: 3rem;
                color: #fafafa;
            }
+
+           .learningCaption {
+                font-size: 0.7rem;
+                margin: -3rem 0 8rem 0;
+           }
+
+           .department {
+               margin: 6rem 0 2rem 0;
+               background-color: #eceff1;
+               padding: 3rem 0;
+           }
+
+           .department h2 {
+               text-align: center;
+               margin: 0 0 4rem 0;
+           }
+
+           .departmentText {
+               display: flex;
+               justify-content: center;
+           }
+
+           .departmentP1 {
+                flex: 1;
+                padding: 1rem;
+           }
+           .departmentP2 {
+                flex: 1;
+                padding: 1rem;
+
+           }
+           .departmentP3 {
+                flex: 1;
+                padding: 1rem;
+
+           }
+
+           .policy h2{
+               text-align: center;
+               font-size: 3rem;
+               margin: 2rem 0 3rem 0;
+
+           }
             
             @media screen and (max-width: 900px) {
                 .offer1 {
@@ -354,6 +398,18 @@
                     font-size: 2rem;
                 }
                
+               .departmentText {
+                   flex-direction: column;
+               }
+
+               .departmentText p{
+                    margin: 0 0 2rem 0;
+               }
+
+               .policy h2 {
+                   font-size: 2rem;
+               }
+
 
             }
             @media screen and (max-width: 600px) {
@@ -591,61 +647,63 @@
 
                 <section class="learning">
                     <h2>OUR E-LEARNING SERVICES</h2>
-                    Photo by August de Richelieu from Pexels
-
+                    
                     <h3>E-Learning production</h3>
                     <p>
                         Designing and creating e-courses and online learning materials in close collaboration with subject matter experts and leading ID and E-Learning specialists
                     </p>
-
+                    
                     <h3>Contents Development</h3>
                     <p>
                         Drawing on our decade of experience and a net of expert e-learning content developers, we can also help you to develop and design the perfect training materials.
                     </p>
-
+                    
                     <h3>Learning Management Services</h3>
                     <p>
                         Providing and managing management system platform that would be the best in meeting the unique requirements of your organization.
                     </p>
-
+                    
                     <h3>Multimedia Content</h3>
                     <p>
                         Helping training organization create instructional richer, visually appealing and interactive with leaning materials including presentations, instructor, video, audio and other multimedia contents.
                     </p>
-
+                    
                     <h3>Interactive learning</h3>
                     <p>
                         Designing and developing unique interactive learning including games simulations, activities and more
                     </p>
                 </section>
+                <p class="learningCaption">
+                    Photo by August de Richelieu from Pexels
+                </p>
+                
 
-
+                <hr>
 
                 <section class="department">
                     <h2>COMPANY'S DEPARTMENTAL ROLE</h2>
-                    <p>
-                        The Operations section is a technical function charged with the responsibility of carrying out repairs, construction, fitting of all electro Web & Mobile Apps, E- Learning, Digital Advertising and software development, Custom Business Solutions, electronics and queries arising from installation of equipment.
-                    </p>
-                    <p>
-                        The Marketing and sales section is responsible for sourcing business, advertising and fostering company image and in addition issues all purchase requests, administer inquiries and orders from our customers at competitive terms and ensure timely delivery of goods and service.
-                    </p>
-                    <p>
-                        The Finance and Administration section is responsible for management of all financial and human resources.
-                    </p>
+                    <div class="departmentText">
 
-                    <br>
-                    <p>
-                        We also deal in digital and social media management agency that helps brands connect, converse, collaborate and co-create with its target customers. We do this with the intelligent use of digital, social, search and mobile platforms. We are a full service digital agency that delivers across the value chain right from launching a brand via digital to building a brands salience via digital to driving business leads and sales for a brand. We also design, develop and promote websites that help your business grow.
-                    </p>
+                        <p class="departmentP1">
+                            The Operations section is a technical function charged with the responsibility of carrying out repairs, construction, fitting of all electro Web & Mobile Apps, E- Learning, Digital Advertising and software development, Custom Business Solutions, electronics and queries arising from installation of equipment.
+                            <br> <br>
+                            The Marketing and sales section is responsible for sourcing business, advertising and fostering company image and in addition issues all purchase requests, administer inquiries and orders from our customers at competitive terms and ensure timely delivery of goods and service.
 
-                    <br>
-
-                    <p>
-                        In January 2018, the Group re-organized into two Business Units:
-                    </p>
-                    <p>
-                        System Solutions and Digital Advertising Services. This simplified the structure promotion synergies and further reinforced the group, positioning of Golden Day General Dealer’s Suppliers and Contractors limited to be one of the most integrated Company in its sector.
-                    </p>
+                            <br> <br>
+                            The Finance and Administration section is responsible for management of all financial and human resources.
+                        </p>
+                        
+                        <p class="departmentP2">
+                            We also deal in digital and social media management agency that helps brands connect, converse, collaborate and co-create with its target customers. We do this with the intelligent use of digital, social, search and mobile platforms. We are a full service digital agency that delivers across the value chain right from launching a brand via digital to building a brands salience via digital to driving business leads and sales for a brand. We also design, develop and promote websites that help your business grow.
+                        </p>
+                        
+                        
+                        <p class="departmentP3">
+                            In January 2018, the Group re-organized into two Business Units:
+                        <br> <br>
+                            System Solutions and Digital Advertising Services. This simplified the structure promotion synergies and further reinforced the group, positioning of Golden Day General Dealer’s Suppliers and Contractors limited to be one of the most integrated Company in its sector.
+                        </p>
+                    </div>
                 </section>
 
 
