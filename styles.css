@@ -90,11 +90,56 @@
 }
 
 .policy h2{
-   text-align: center;
-   font-size: 3rem;
-   margin: 2rem 0 3rem 0;
-
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0 3rem 0;
+    
 }
+
+.policy p {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.policy ul {
+    max-width: 400px;
+    margin: 3rem auto;
+    background-image: url(./images/clouds.jpg);
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+
+.policy li {
+    list-style: none;
+    background-color: #e1f5fe;
+    padding: 0.2rem 2rem;
+    margin: 0.3rem;
+    opacity: 0.8;
+}
+
+.safety {
+    background-color: #76ff03;
+    padding: 2rem;
+    margin: 5rem 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.safety aside {
+    padding: 0 0 0 2rem;
+}
+
+.safety aside li {
+    list-style: none;
+    max-width: 500px;
+}
+
+.safety img {
+    max-width: 300px;
+}
+
 
 @media screen and (max-width: 900px) {
    
