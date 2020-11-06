@@ -157,3 +157,60 @@
    margin: 2rem 0 3rem 0;
 
 }
+
+@media screen and (max-width: 900px) {
+    .specialization h2 {
+        font-size: 2rem;
+    }
+
+    .special {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .specialB {
+        flex-direction: column;
+    }
+
+    .specialB p:nth-of-type(1) {
+        border: none;
+    }
+
+    .specialB p:nth-of-type(3) {
+        border: none;
+    }
+
+
+    .fabrication h2 {
+        font-size: 2rem;
+    }
+   
+   .departmentText {
+       flex-direction: column;
+   }
+
+   .departmentText p{
+        margin: 0 0 2rem 0;
+   }
+
+   .policy h2 {
+       font-size: 2rem;
+   }
+
+
+}
+
+.cool1 {
+    padding: 2rem;
+    border-left: 10px solid tomato;
+}
+.cool2 {
+    padding: 2rem;
+    border-right: 10px solid tomato;
+}
+
+.cool3 {
+    padding: 2rem;
+    border: 5px solid #00e676;
+    border-radius: 10px;
+}
