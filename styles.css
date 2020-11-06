@@ -233,6 +233,10 @@ footer .foot {
        font-size: 2rem;
    }
 
+   .safety {
+       flex-direction: column;
+   }
+
    .objectives h2 {
        font-size: 2rem;
    }
