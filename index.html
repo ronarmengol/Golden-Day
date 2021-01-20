@@ -368,18 +368,11 @@
                 .navItem {
                     font-size: 1.1rem;
                     margin: 2rem 1rem;
-
                 }
-
-               
             }
-
             .keywords {
                 display: none;
             }
-
-
-           
         </style>
 
 
@@ -769,7 +762,11 @@
                 (function () {
                     window.addEventListener('load', function () {
                         const image1 = document.getElementById('image1');
-                        image1.src = './images/architecture.webp'
+                        image1.src = './images/architecture-b.webp'
+
+                        image1.onload = function () {
+                            image1.src = './images/architecture.webp';
+                        }
 
 
                         const head = document.head;
