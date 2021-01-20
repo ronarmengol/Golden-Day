@@ -8,6 +8,13 @@
     text-align: center;
     font-size: 3rem;
     margin: 0 0 2rem 0;
+    overflow-x: hidden;
+    background: linear-gradient(45deg, red, #fff, orange, yellow);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
 .fabrication p{
@@ -41,6 +48,13 @@
 .learning h2 {
    font-size: 2.5rem;
    text-align: center;
+   overflow-x: hidden;
+   background: linear-gradient(45deg, red, #fff, orange, yellow);
+   background-repeat: no-repeat;
+   background-size: 80%;
+   animation: animate 4s linear infinite;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
 .learning {
@@ -93,6 +107,13 @@
     text-align: center;
     font-size: 3rem;
     margin: 2rem 0 3rem 0;
+    overflow-x: hidden;
+    background: linear-gradient(45deg, red, #fff, orange, yellow);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
     
 }
 
@@ -154,6 +175,7 @@
     text-align: center;
     margin: 0 0 3rem 0;
     font-size: 3rem;
+    
 }
 
 .objectives ul {
@@ -175,6 +197,13 @@
 .about h2{
     font-size: 3rem;
     margin: 0 0 1rem 0;
+    overflow-x: hidden;
+    background: linear-gradient(45deg, red, #fff, orange, yellow);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 4s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
 .about img {
