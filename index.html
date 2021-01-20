@@ -174,7 +174,7 @@
                 font-size: clamp(4rem, 8vw, 6rem);
   letter-spacing: 4px;
   overflow-x: hidden;
-  background: linear-gradient(45deg, red, #fff, orange, yellow);
+  background: linear-gradient(45deg,red, red, #fff, orange, yellow);
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 4s linear infinite;
@@ -495,8 +495,7 @@
 
                 <section class="offer1">
                     <div>
-                        <img loading="lazy"
-                        src="./images/web-design.jpg" alt="web design">
+                        <img id="offer1" alt="web design">
                     </div>
                        
                     <div>
@@ -519,8 +518,7 @@
                     
                     <div class="offer2B">
 
-                        <img loading="lazy" 
-                        src="./images/branding.jpg" 
+                        <img id="offer2"
                         alt="web branding ">
                     </div>
                         
@@ -529,8 +527,7 @@
 
                 <section class="offer3">
                     <div class="offer3A">
-                        <img loading="lazy" 
-                        src="./images/digital-1.jpg" alt="digital network">
+                        <img id="offer3A" alt="digital network">
                         <p>
                             We encompasses all digital Channels such as search engines, Social media, email, and websites to connect your business and reach out to prospective Customers.
 
@@ -538,16 +535,14 @@
                     </div>
 
                     <div class="offer3B">
-                        <img loading="lazy"
-                        src="./images/digital-2.jpg" alt="digital network">
+                        <img id="offer3B" alt="digital network">
                         <p>
                             Don’t let your ideas just slip through the cracks. Let us tailor your needs, and help translate your ideas into mobile apps. We develop both Android and IOS applications.
                         </p>
                     </div>
 
                     <div class="offer3C">
-                        <img loading="lazy" 
-                        src="./images/digital3.jpg" alt="digital network">
+                        <img id="offer3C" alt="digital network">
                         <p>
 
                             Custom Business Solutions
@@ -843,6 +838,21 @@
                         image1.onload = function () {
                             image1.src = './images/architecture.webp';
                         }
+
+                        const offer1 = document.getElementById('offer1');
+                        offer1.src = './images/web-design.jpg';
+
+                        const offer2 = document.getElementById('offer2');
+                        offer2.src = './images/branding.jpg';
+
+                        const offer3A = document.getElementById('offer3A');
+                        offer3A.src = './images/digital-1.jpg';
+
+                        const offer3B = document.getElementById('offer3B');
+                        offer3B.src = './images/digital-2.jpg';
+
+                        const offer3C = document.getElementById('offer3C');
+                        offer3C.src = './images/digital3.jpg';
 
 
                         const head = document.head;
