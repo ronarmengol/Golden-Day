@@ -834,9 +834,10 @@
                     window.addEventListener('load', function () {
                         const image1 = document.getElementById('image1');
                         image1.src = './images/architecture-b.webp'
-
+                        
                         image1.onload = function () {
                             image1.src = './images/architecture.webp';
+                        }
                             
                             const offer1 = document.getElementById('offer1');
                             offer1.src = './images/web-design.jpg';
@@ -853,7 +854,6 @@
                             const offer3C = document.getElementById('offer3C');
                             offer3C.src = './images/digital3.jpg';
                             
-                        }
                             
                             const head = document.head;
                             const link = document.createElement('link');
